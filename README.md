@@ -28,7 +28,16 @@ PyTorch의 기본 문법과 개념을 단계별로 설명한 완전한 가이드
 
 ## 🚀 시작하기
 
+### 빠른 시작
+처음 시작하시나요? **[빠른 시작 가이드](./QUICKSTART.md)**를 읽어보세요! (5분이면 충분합니다)
+
 ### 요구사항
+```bash
+pip install -r requirements.txt
+```
+
+또는
+
 ```bash
 pip install torch torchvision numpy
 ```
