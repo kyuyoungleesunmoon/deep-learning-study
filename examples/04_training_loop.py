@@ -233,9 +233,10 @@ def main():
     # ReduceLROnPlateau
     optimizer = optim.Adam(model.parameters(), lr=0.01)
     scheduler_plateau = optim.lr_scheduler.ReduceLROnPlateau(
-        optimizer, mode='min', factor=0.5, patience=2, verbose=True
+        optimizer, mode='min', factor=0.5, patience=2
     )
     print("\nReduceLROnPlateau (검증 손실이 개선되지 않으면 학습률 감소):")
+    print("mode='min', factor=0.5, patience=2")
     print("(실제 사용 시: scheduler.step(val_loss))")
     
     print("\n" + "=" * 50)
