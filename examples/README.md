@@ -81,10 +81,40 @@ python 04_training_loop.py
 python 05_complete_example.py
 ```
 
+### 06_model_evaluation.py
+**모델 평가와 하이퍼파라미터 튜닝**
+- 위스콘신 유방암 데이터셋 사용
+- 파이프라인을 사용한 효율적인 워크플로
+- k-겹 교차 검증 (홀드아웃 vs 층화 k-겹)
+- 학습 곡선과 검증 곡선 분석
+- 그리드 서치와 랜덤 서치
+- 오차 행렬, 정밀도, 재현율, F1 점수
+- ROC 곡선과 AUC
+- Precision-Recall 곡선
+- 불균형한 클래스 처리
+
+**실행 방법:**
+```bash
+python 06_model_evaluation.py
+```
+
+**생성되는 그래프:**
+- learning_curves.png - 학습 곡선 (과소/과대적합 진단)
+- validation_curves.png - 검증 곡선 (하이퍼파라미터 영향)
+- confusion_matrix.png - 오차 행렬
+- roc_curves.png - ROC 곡선
+- pr_curves.png - Precision-Recall 곡선
+
 ## 요구사항
 
 ```bash
-pip install torch torchvision numpy
+pip install torch torchvision numpy scikit-learn matplotlib scipy
+```
+
+또는
+
+```bash
+pip install -r ../requirements.txt
 ```
 
 ## 학습 순서
@@ -94,6 +124,7 @@ pip install torch torchvision numpy
 3. **03_neural_network.py** - 신경망을 구축하는 방법을 학습합니다.
 4. **04_training_loop.py** - 모델을 학습시키는 전체 과정을 이해합니다.
 5. **05_complete_example.py** - 실제 프로젝트처럼 모든 것을 통합합니다.
+6. **06_model_evaluation.py** - 모델 성능을 정확하게 평가하고 최적화합니다.
 
 ## 참고 자료
 
