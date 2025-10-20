@@ -920,9 +920,11 @@ def section10_imbalanced_classes():
     malignant_indices = np.where(y == 0)[0]
     benign_indices = np.where(y == 1)[0]
     
-    # 악성은 전체 사용, 양성은 일부만 사용
-    selected_malignant = malignant_indices
-    selected_benign = np.random.choice(benign_indices, size=len(malignant_indices)*9, replace=False)
+    # 악성은 일부만, 양성은 더 많이 사용
+    # 악성의 30%만 사용, 양성은 전체 사용하여 1:9 비율 만들기
+    n_malignant = int(len(malignant_indices) * 0.3)
+    selected_malignant = np.random.choice(malignant_indices, size=n_malignant, replace=False)
+    selected_benign = benign_indices  # 전체 사용
     
     selected_indices = np.concatenate([selected_malignant, selected_benign])
     np.random.shuffle(selected_indices)
