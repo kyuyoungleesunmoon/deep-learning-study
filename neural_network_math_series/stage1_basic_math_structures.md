@@ -632,7 +632,9 @@ plt.show()
 | **행렬** | 2차원 | $\mathbf{A}$ | 가중치 행렬 | $\begin{bmatrix}1 & 2\\3 & 4\end{bmatrix}$  |
 | **선형 변환** | 함수 | $\mathbf{y}=\mathbf{Ax}+\mathbf{b}$ | 층 간 변환 | 입력→은닉층 |
 
-$\begin{bmatrix}1 & 2\\3 & 4\end{bmatrix}$ 
+$$ 
+\begin{bmatrix}1 & 2\\3 & 4\end{bmatrix}
+$$ 
 
 ### 실생활 비유
 - **스칼라**: 온도계의 온도 하나
