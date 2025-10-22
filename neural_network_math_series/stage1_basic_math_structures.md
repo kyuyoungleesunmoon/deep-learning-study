@@ -53,11 +53,13 @@ $$
 $$
 
 **행 벡터 (Row Vector):**
+
 $$
 \mathbf{v}^T = \begin{bmatrix} v_1 & v_2 & \cdots & v_n \end{bmatrix}
 $$
 
 **기호 설명:**
+
 - $\mathbf{v}$: 벡터 (굵은 글씨로 표기)
 - $v_i$: 벡터의 $i$번째 원소 (element)
 - $n$: 벡터의 차원 (dimension)
@@ -73,52 +75,62 @@ $$
 ### 2.4 수치 예제
 
 **2차원 벡터:**
+
 $$
 \mathbf{x} = \begin{bmatrix} 3 \\ 4 \end{bmatrix}
 $$
 
 **벡터의 크기 (Norm):**
+
 $$
 \|\mathbf{x}\| = \sqrt{x_1^2 + x_2^2} = \sqrt{3^2 + 4^2} = \sqrt{25} = 5
 $$
 
 **기호 설명:**
+
 - $\|\mathbf{x}\|$: 벡터의 크기 (또는 노름, norm)
 - $\sqrt{\cdot}$: 제곱근
 
 ### 2.5 벡터 연산
 
 #### 2.5.1 벡터 덧셈
+
 $$
 \mathbf{a} + \mathbf{b} = \begin{bmatrix} a_1 \\ a_2 \end{bmatrix} + \begin{bmatrix} b_1 \\ b_2 \end{bmatrix} = \begin{bmatrix} a_1 + b_1 \\ a_2 + b_2 \end{bmatrix}
 $$
 
 **예제:**
+
 $$
 \begin{bmatrix} 2 \\ 3 \end{bmatrix} + \begin{bmatrix} 1 \\ 4 \end{bmatrix} = \begin{bmatrix} 3 \\ 7 \end{bmatrix}
 $$
 
 #### 2.5.2 스칼라 곱 (Scalar Multiplication)
+
 $$
 c \cdot \mathbf{v} = c \cdot \begin{bmatrix} v_1 \\ v_2 \end{bmatrix} = \begin{bmatrix} c \cdot v_1 \\ c \cdot v_2 \end{bmatrix}
 $$
 
 **예제:**
+
 $$
 2 \cdot \begin{bmatrix} 3 \\ 4 \end{bmatrix} = \begin{bmatrix} 6 \\ 8 \end{bmatrix}
 $$
 
 #### 2.5.3 내적 (Dot Product / Inner Product)
+
 $$
 \mathbf{a} \cdot \mathbf{b} = a_1 b_1 + a_2 b_2 + \cdots + a_n b_n = \sum_{i=1}^{n} a_i b_i
 $$
 
 **기호 설명:**
+
 - $\cdot$: 내적 연산자
 - $\sum$: 합 (summation)
 - $i=1$부터 $n$까지: 인덱스의 범위
 
 **예제:**
+
 $$
 \begin{bmatrix} 2 \\ 3 \end{bmatrix} \cdot \begin{bmatrix} 4 \\ 5 \end{bmatrix} = (2 \times 4) + (3 \times 5) = 8 + 15 = 23
 $$
@@ -136,6 +148,7 @@ $$
 행렬은 숫자들을 2차원 배열로 배치한 것입니다. 여러 벡터를 모아놓은 것으로 볼 수 있습니다.
 
 ### 3.2 수학적 표현
+
 $$
 \mathbf{A} = \begin{bmatrix}
 a_{11} & a_{12} & \cdots & a_{1n} \\
@@ -146,6 +159,7 @@ a_{m1} & a_{m2} & \cdots & a_{mn}
 $$
 
 **기호 설명:**
+
 - $\mathbf{A}$: 행렬 (대문자 굵은 글씨)
 - $a_{ij}$: $i$번째 행(row), $j$번째 열(column)의 원소
 - $m$: 행의 개수
@@ -153,6 +167,7 @@ $$
 - $\mathbb{R}^{m \times n}$: $m \times n$ 크기의 실수 행렬 공간
 
 ### 3.3 실생활 예시
+
 - **이미지**: 픽셀을 행렬로 표현 (예: 28x28 이미지 = 28x28 행렬)
 - **학생 성적표**: 학생(행) × 과목(열)
 - **거리 행렬**: 도시 간 거리
@@ -161,6 +176,7 @@ $$
 ### 3.4 수치 예제
 
 **2×3 행렬:**
+
 $$
 \mathbf{A} = \begin{bmatrix}
 1 & 2 & 3 \\
@@ -174,6 +190,7 @@ $$
 ### 3.5 행렬 연산
 
 #### 3.5.1 행렬 덧셈
+
 $$
 \mathbf{A} + \mathbf{B} = \begin{bmatrix}
 a_{11} + b_{11} & a_{12} + b_{12} \\
@@ -184,11 +201,13 @@ $$
 **조건**: 두 행렬의 크기가 같아야 함
 
 **예제:**
+
 $$
 \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} + \begin{bmatrix} 5 & 6 \\ 7 & 8 \end{bmatrix} = \begin{bmatrix} 6 & 8 \\ 10 & 12 \end{bmatrix}
 $$
 
 #### 3.5.2 행렬-벡터 곱 (Matrix-Vector Multiplication)
+
 $$
 \mathbf{A}\mathbf{x} = \begin{bmatrix}
 a_{11} & a_{12} \\
@@ -200,6 +219,7 @@ a_{21}x_1 + a_{22}x_2
 $$
 
 **예제:**
+
 $$
 \begin{bmatrix} 2 & 3 \\ 4 & 5 \end{bmatrix} \begin{bmatrix} 1 \\ 2 \end{bmatrix} = \begin{bmatrix} 2 \cdot 1 + 3 \cdot 2 \\ 4 \cdot 1 + 5 \cdot 2 \end{bmatrix} = \begin{bmatrix} 8 \\ 14 \end{bmatrix}
 $$
@@ -207,6 +227,7 @@ $$
 **해석**: 각 행과 벡터의 내적 결과를 모은 것
 
 #### 3.5.3 행렬 곱셈 (Matrix Multiplication)
+
 $$
 \mathbf{C} = \mathbf{A}\mathbf{B}
 $$
@@ -219,6 +240,7 @@ $$
 **조건**: $\mathbf{A} \in \mathbb{R}^{m \times p}$, $\mathbf{B} \in \mathbb{R}^{p \times n}$ → $\mathbf{C} \in \mathbb{R}^{m \times n}$
 
 **예제:**
+
 $$
 \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} \begin{bmatrix} 5 & 6 \\ 7 & 8 \end{bmatrix} = \begin{bmatrix} 1 \cdot 5 + 2 \cdot 7 & 1 \cdot 6 + 2 \cdot 8 \\ 3 \cdot 5 + 4 \cdot 7 & 3 \cdot 6 + 4 \cdot 8 \end{bmatrix} = \begin{bmatrix} 19 & 22 \\ 43 & 50 \end{bmatrix}
 $$
@@ -231,11 +253,13 @@ $$
 선형 변환은 벡터 공간의 벡터를 다른 벡터 공간의 벡터로 매핑하는 함수입니다.
 
 ### 4.2 수학적 표현
+
 $$
 \mathbf{y} = \mathbf{A}\mathbf{x} + \mathbf{b}
 $$
 
 **기호 설명:**
+
 - $\mathbf{x} \in \mathbb{R}^n$: 입력 벡터
 - $\mathbf{A} \in \mathbb{R}^{m \times n}$: 변환 행렬 (가중치)
 - $\mathbf{b} \in \mathbb{R}^m$: 편향 벡터 (bias)
@@ -246,11 +270,13 @@ $$
 함수 $f(\mathbf{x})$가 선형 변환이려면 다음 두 조건을 만족해야 합니다:
 
 **1. 가법성 (Additivity):**
+
 $$
 f(\mathbf{x} + \mathbf{y}) = f(\mathbf{x}) + f(\mathbf{y})
 $$
 
 **2. 동차성 (Homogeneity):**
+
 $$
 f(c\mathbf{x}) = c \cdot f(\mathbf{x})
 $$
@@ -258,6 +284,7 @@ $$
 여기서 $c$는 스칼라
 
 ### 4.4 실생활 예시
+
 - **화면 회전**: 이미지를 90도 회전시키기
 - **크기 조정**: 이미지를 2배로 확대하기
 - **좌표 변환**: GPS 좌표를 화면 좌표로 변환
@@ -268,6 +295,7 @@ $$
 2차원 공간에서 회전 변환 (45도 반시계방향):
 
 **회전 행렬:**
+
 $$
 \mathbf{R} = \begin{bmatrix}
 \cos(45°) & -\sin(45°) \\
@@ -279,11 +307,13 @@ $$
 $$
 
 **입력 벡터:**
+
 $$
 \mathbf{x} = \begin{bmatrix} 1 \\ 0 \end{bmatrix}
 $$
 
 **변환된 벡터:**
+
 $$
 \mathbf{y} = \mathbf{R}\mathbf{x} = \begin{bmatrix}
 0.707 & -0.707 \\
@@ -311,6 +341,7 @@ w_{21} & w_{22} & w_{23}
 $$
 
 **구체적 값:**
+
 $$
 \begin{bmatrix} z_1 \\ z_2 \end{bmatrix} = \begin{bmatrix}
 0.5 & 0.3 & 0.2 \\
@@ -319,6 +350,7 @@ $$
 $$
 
 **계산:**
+
 $$
 z_1 = (0.5 \times 1.0) + (0.3 \times 2.0) + (0.2 \times 3.0) + 0.1 = 0.5 + 0.6 + 0.6 + 0.1 = 1.8
 $$
