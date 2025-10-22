@@ -40,6 +40,19 @@ PyTorch의 기본 문법과 개념을 단계별로 설명한 완전한 가이드
 5. 다양한 성능 평가 지표
 6. 불균형한 클래스 처리
 
+### 🎯 [앙상블 학습 (Ensemble Learning)](./ensemble_learning.md)
+다양한 모델을 결합하여 더 강력한 예측 모델을 만드는 앙상블 학습을 배웁니다.
+
+**포함된 내용:**
+1. 앙상블 학습 개요 (배깅, 부스팅, 스태킹)
+2. 다수결 투표 앙상블 (Voting)
+3. 배깅 (Bagging)과 랜덤 포레스트
+4. 에이다부스트 (AdaBoost)
+5. 그레이디언트 부스팅 & XGBoost
+6. 모델 성능 평가 및 비교
+
+**예상 학습 시간:** 4시간 30분 (이론 2시간 + 실습 2시간 30분)
+
 ### 💻 [실행 가능한 예제](./examples/)
 실제로 실행하고 실험해볼 수 있는 예제 코드들입니다.
 
@@ -50,6 +63,7 @@ PyTorch의 기본 문법과 개념을 단계별로 설명한 완전한 가이드
 - `04_training_loop.py` - 학습 루프
 - `05_complete_example.py` - 완전한 이미지 분류 예제
 - `06_model_evaluation.py` - 모델 평가와 하이퍼파라미터 튜닝
+- `07_ensemble_learning.py` - 앙상블 학습 (Voting, Bagging, Boosting, XGBoost)
 
 ## 🚀 시작하기
 
