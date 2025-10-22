@@ -4,6 +4,43 @@ PyTorch를 사용한 딥러닝 학습 자료입니다.
 
 ## 📚 학습 자료
 
+### 🧮 신경망 학습의 수학적 기초 (NEW!)
+
+신경망(딥러닝) 학습을 수학적으로 완전히 이해하기 위한 교육자료입니다. 이론, 수치 예제, 실행 가능한 코드를 포함합니다.
+
+#### 이론 문서 (Markdown)
+
+**[1. 기본 단계 - 신경망 학습의 수학적 기초](./01_basic_neural_network_math.md)**
+- 퍼셉트론 (Perceptron) - 수식과 기호 설명
+- 활성화 함수 (Sigmoid, ReLU, Tanh) - 미분 포함
+- 순방향 전파 (Forward Propagation) - 수치 예제
+- 손실 함수 (MSE, Cross-Entropy) - 계산 과정
+
+**[2. 중급 단계 - 역전파와 경사하강법](./02_intermediate_backpropagation.md)**
+- 역전파 알고리즘 - 완전한 수학적 유도
+- 경사하강법 변형 (Batch, SGD, Mini-batch)
+- 연쇄 법칙 (Chain Rule) - 상세한 예제
+- 가중치 업데이트 - 단계별 계산
+
+**[3. 고급 단계 - 최적화 및 정규화](./03_advanced_optimization.md)**
+- 고급 최적화 (Adam, RMSprop, AdaGrad) - 수식과 예제
+- 정규화 기법 (L1, L2, Dropout) - 수학적 기초
+- 배치 정규화 (Batch Normalization) - 상세한 계산
+- 고급 아키텍처 (CNN, RNN) - 수학적 정의
+
+#### 실습 노트북 (Jupyter)
+
+**[📔 Jupyter Notebooks](./notebooks/)** - 실행 가능한 코드로 검증
+
+1. **기본**: `01_basic_neural_network.ipynb` - 퍼셉트론, 활성화 함수, 순방향 전파
+2. **중급**: `02_backpropagation_from_scratch.ipynb` - 역전파 구현, 그래디언트 검증
+3. **고급**: `03_optimization_techniques.ipynb` - Adam, 정규화, 배치 정규화
+
+**학습 수준:** 대학(학부 상위/대학원) ~ 산업 실무자  
+**특징:** 모든 수식에 기호 설명(Legend) 포함, 수치 예제로 검증
+
+---
+
 ### 🐍 [Python 기초 - 변수와 자료형](./python_basics/)
 Python 프로그래밍의 기초인 변수 선언 규칙과 기본 자료형을 학습합니다.
 
