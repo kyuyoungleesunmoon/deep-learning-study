@@ -47,6 +47,7 @@ s₃ = 0.001
 ### 2.2 수학적 표현
 
 **열 벡터 (Column Vector):**
+
 $$
 \mathbf{v} = \begin{bmatrix} v_1 \\ v_2 \\ \vdots \\ v_n \end{bmatrix} \in \mathbb{R}^n
 $$
