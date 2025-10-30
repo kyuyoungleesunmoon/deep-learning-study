@@ -1,0 +1,101 @@
+Row ID,Order ID,Order Date,Ship Date,Ship Mode,Customer ID,Customer Name,Segment,Country,City,State,Region,Category,Sub-Category,Sales,Quantity,Discount,Profit
+1,CA-2020-000001,01/03/2020,06/03/2020,Standard Class,CG-12100,Customer 0,Consumer,United States,New York,New York,East,Furniture,Chairs,45.98,2,0.0,12.34
+2,CA-2020-000002,01/03/2020,06/03/2020,Standard Class,CG-12101,Customer 1,Consumer,United States,New York,New York,East,Furniture,Chairs,1199.99,5,0.15,299.99
+3,CA-2020-000003,01/03/2020,06/03/2020,Standard Class,CG-12102,Customer 2,Consumer,United States,New York,New York,East,Furniture,Chairs,56.45,3,0.0,-15.67
+4,CA-2020-000004,01/03/2020,06/03/2020,Standard Class,CG-12103,Customer 3,Consumer,United States,New York,New York,East,Furniture,Chairs,899.99,1,0.2,179.99
+5,CA-2020-000005,01/03/2020,06/03/2020,Standard Class,CG-12104,Customer 4,Consumer,United States,New York,New York,East,Furniture,Chairs,234.56,4,0.1,58.64
+6,CA-2020-000006,01/03/2020,06/03/2020,Standard Class,CG-12105,Customer 5,Consumer,United States,New York,New York,East,Furniture,Chairs,678.9,2,0.0,169.73
+7,CA-2020-000007,01/03/2020,06/03/2020,Standard Class,CG-12106,Customer 6,Consumer,United States,New York,New York,East,Furniture,Chairs,1456.78,6,0.15,364.2
+8,CA-2020-000008,01/03/2020,06/03/2020,Standard Class,CG-12107,Customer 7,Consumer,United States,New York,New York,East,Furniture,Chairs,123.45,3,0.0,30.86
+9,CA-2020-000009,01/03/2020,06/03/2020,Standard Class,CG-12108,Customer 8,Consumer,United States,New York,New York,East,Furniture,Chairs,567.89,2,0.1,141.97
+10,CA-2020-000010,01/03/2020,06/03/2020,Standard Class,CG-12109,Customer 9,Consumer,United States,New York,New York,East,Furniture,Chairs,345.67,4,0.0,86.42
+11,CA-2020-000011,01/03/2020,06/03/2020,Standard Class,CG-12110,Customer 10,Consumer,United States,New York,New York,East,Furniture,Chairs,45.98,2,0.0,12.34
+12,CA-2020-000012,01/03/2020,06/03/2020,Standard Class,CG-12111,Customer 11,Consumer,United States,New York,New York,East,Furniture,Chairs,1199.99,5,0.15,299.99
+13,CA-2020-000013,01/03/2020,06/03/2020,Standard Class,CG-12112,Customer 12,Consumer,United States,New York,New York,East,Furniture,Chairs,56.45,3,0.0,-15.67
+14,CA-2020-000014,01/03/2020,06/03/2020,Standard Class,CG-12113,Customer 13,Consumer,United States,New York,New York,East,Furniture,Chairs,899.99,1,0.2,179.99
+15,CA-2020-000015,01/03/2020,06/03/2020,Standard Class,CG-12114,Customer 14,Consumer,United States,New York,New York,East,Furniture,Chairs,234.56,4,0.1,58.64
+16,CA-2020-000016,01/03/2020,06/03/2020,Standard Class,CG-12115,Customer 15,Consumer,United States,New York,New York,East,Furniture,Chairs,678.9,2,0.0,169.73
+17,CA-2020-000017,01/03/2020,06/03/2020,Standard Class,CG-12116,Customer 16,Consumer,United States,New York,New York,East,Furniture,Chairs,1456.78,6,0.15,364.2
+18,CA-2020-000018,01/03/2020,06/03/2020,Standard Class,CG-12117,Customer 17,Consumer,United States,New York,New York,East,Furniture,Chairs,123.45,3,0.0,30.86
+19,CA-2020-000019,01/03/2020,06/03/2020,Standard Class,CG-12118,Customer 18,Consumer,United States,New York,New York,East,Furniture,Chairs,567.89,2,0.1,141.97
+20,CA-2020-000020,01/03/2020,06/03/2020,Standard Class,CG-12119,Customer 19,Consumer,United States,New York,New York,East,Furniture,Chairs,345.67,4,0.0,86.42
+21,CA-2020-000021,01/03/2020,06/03/2020,Standard Class,CG-12120,Customer 20,Consumer,United States,New York,New York,East,Furniture,Tables,45.98,2,0.0,12.34
+22,CA-2020-000022,01/03/2020,06/03/2020,Standard Class,CG-12121,Customer 21,Consumer,United States,New York,New York,East,Furniture,Tables,1199.99,5,0.15,299.99
+23,CA-2020-000023,01/03/2020,06/03/2020,Standard Class,CG-12122,Customer 22,Consumer,United States,New York,New York,East,Furniture,Tables,56.45,3,0.0,-15.67
+24,CA-2020-000024,01/03/2020,06/03/2020,Standard Class,CG-12123,Customer 23,Consumer,United States,New York,New York,East,Furniture,Tables,899.99,1,0.2,179.99
+25,CA-2020-000025,01/03/2020,06/03/2020,Standard Class,CG-12124,Customer 24,Consumer,United States,New York,New York,East,Furniture,Tables,234.56,4,0.1,58.64
+26,CA-2020-000026,01/03/2020,06/03/2020,Standard Class,CG-12125,Customer 25,Consumer,United States,Los Angeles,California,West,Furniture,Tables,678.9,2,0.0,169.73
+27,CA-2020-000027,01/03/2020,06/03/2020,Standard Class,CG-12126,Customer 26,Consumer,United States,Los Angeles,California,West,Furniture,Tables,1456.78,6,0.15,364.2
+28,CA-2020-000028,01/03/2020,06/03/2020,Standard Class,CG-12127,Customer 27,Consumer,United States,Los Angeles,California,West,Furniture,Tables,123.45,3,0.0,30.86
+29,CA-2020-000029,01/03/2020,06/03/2020,Standard Class,CG-12128,Customer 28,Consumer,United States,Los Angeles,California,West,Furniture,Tables,567.89,2,0.1,141.97
+30,CA-2020-000030,01/03/2020,06/03/2020,Standard Class,CG-12129,Customer 29,Consumer,United States,Los Angeles,California,West,Furniture,Tables,345.67,4,0.0,86.42
+31,CA-2020-000031,01/03/2020,06/03/2020,Standard Class,CG-12130,Customer 30,Consumer,United States,Los Angeles,California,West,Furniture,Tables,45.98,2,0.0,12.34
+32,CA-2020-000032,01/03/2020,06/03/2020,Standard Class,CG-12131,Customer 31,Consumer,United States,Los Angeles,California,West,Furniture,Tables,1199.99,5,0.15,299.99
+33,CA-2020-000033,01/03/2020,06/03/2020,Standard Class,CG-12132,Customer 32,Consumer,United States,Los Angeles,California,West,Furniture,Tables,56.45,3,0.0,-15.67
+34,CA-2020-000034,01/03/2020,06/03/2020,Standard Class,CG-12133,Customer 33,Consumer,United States,Los Angeles,California,West,Office Supplies,Binders,899.99,1,0.2,179.99
+35,CA-2020-000035,01/03/2020,06/03/2020,Standard Class,CG-12134,Customer 34,Consumer,United States,Los Angeles,California,West,Office Supplies,Binders,234.56,4,0.1,58.64
+36,CA-2020-000036,01/03/2020,06/03/2020,Standard Class,CG-12135,Customer 35,Consumer,United States,Los Angeles,California,West,Office Supplies,Binders,678.9,2,0.0,169.73
+37,CA-2020-000037,01/03/2020,06/03/2020,Standard Class,CG-12136,Customer 36,Consumer,United States,Los Angeles,California,West,Office Supplies,Binders,1456.78,6,0.15,364.2
+38,CA-2020-000038,01/03/2020,06/03/2020,Standard Class,CG-12137,Customer 37,Consumer,United States,Los Angeles,California,West,Office Supplies,Binders,123.45,3,0.0,30.86
+39,CA-2020-000039,01/03/2020,06/03/2020,Standard Class,CG-12138,Customer 38,Consumer,United States,Los Angeles,California,West,Office Supplies,Binders,567.89,2,0.1,141.97
+40,CA-2020-000040,01/03/2020,06/03/2020,Standard Class,CG-12139,Customer 39,Consumer,United States,Los Angeles,California,West,Office Supplies,Binders,345.67,4,0.0,86.42
+41,CA-2020-000041,01/03/2020,06/03/2020,Standard Class,CG-12140,Customer 40,Consumer,United States,Los Angeles,California,West,Office Supplies,Binders,45.98,2,0.0,12.34
+42,CA-2020-000042,01/03/2020,06/03/2020,Standard Class,CG-12141,Customer 41,Consumer,United States,Los Angeles,California,West,Office Supplies,Binders,1199.99,5,0.15,299.99
+43,CA-2020-000043,01/03/2020,06/03/2020,Standard Class,CG-12142,Customer 42,Consumer,United States,Los Angeles,California,West,Office Supplies,Binders,56.45,3,0.0,-15.67
+44,CA-2020-000044,01/03/2020,06/03/2020,Standard Class,CG-12143,Customer 43,Consumer,United States,Los Angeles,California,West,Office Supplies,Binders,899.99,1,0.2,179.99
+45,CA-2020-000045,01/03/2020,06/03/2020,Standard Class,CG-12144,Customer 44,Consumer,United States,Los Angeles,California,West,Office Supplies,Binders,234.56,4,0.1,58.64
+46,CA-2020-000046,01/03/2020,06/03/2020,Standard Class,CG-12145,Customer 45,Consumer,United States,Los Angeles,California,West,Office Supplies,Binders,678.9,2,0.0,169.73
+47,CA-2020-000047,01/03/2020,06/03/2020,Standard Class,CG-12146,Customer 46,Consumer,United States,Los Angeles,California,West,Office Supplies,Binders,1456.78,6,0.15,364.2
+48,CA-2020-000048,01/03/2020,06/03/2020,Standard Class,CG-12147,Customer 47,Consumer,United States,Los Angeles,California,West,Office Supplies,Binders,123.45,3,0.0,30.86
+49,CA-2020-000049,01/03/2020,06/03/2020,Standard Class,CG-12148,Customer 48,Consumer,United States,Los Angeles,California,West,Office Supplies,Binders,567.89,2,0.1,141.97
+50,CA-2020-000050,01/03/2020,06/03/2020,Standard Class,CG-12149,Customer 49,Consumer,United States,Los Angeles,California,West,Office Supplies,Binders,345.67,4,0.0,86.42
+51,CA-2020-000051,01/03/2020,06/03/2020,Second Class,CG-12150,Customer 50,Consumer,United States,Chicago,Illinois,Central,Office Supplies,Binders,45.98,2,0.0,12.34
+52,CA-2020-000052,01/03/2020,06/03/2020,Second Class,CG-12151,Customer 51,Consumer,United States,Chicago,Illinois,Central,Office Supplies,Paper,1199.99,5,0.15,299.99
+53,CA-2020-000053,01/03/2020,06/03/2020,Second Class,CG-12152,Customer 52,Consumer,United States,Chicago,Illinois,Central,Office Supplies,Paper,56.45,3,0.0,-15.67
+54,CA-2020-000054,01/03/2020,06/03/2020,Second Class,CG-12153,Customer 53,Consumer,United States,Chicago,Illinois,Central,Office Supplies,Paper,899.99,1,0.2,179.99
+55,CA-2020-000055,01/03/2020,06/03/2020,Second Class,CG-12154,Customer 54,Consumer,United States,Chicago,Illinois,Central,Office Supplies,Paper,234.56,4,0.1,58.64
+56,CA-2020-000056,01/03/2020,06/03/2020,Second Class,CG-12155,Customer 55,Consumer,United States,Chicago,Illinois,Central,Office Supplies,Paper,678.9,2,0.0,169.73
+57,CA-2020-000057,01/03/2020,06/03/2020,Second Class,CG-12156,Customer 56,Consumer,United States,Chicago,Illinois,Central,Office Supplies,Paper,1456.78,6,0.15,364.2
+58,CA-2020-000058,01/03/2020,06/03/2020,Second Class,CG-12157,Customer 57,Consumer,United States,Chicago,Illinois,Central,Office Supplies,Paper,123.45,3,0.0,30.86
+59,CA-2020-000059,01/03/2020,06/03/2020,Second Class,CG-12158,Customer 58,Consumer,United States,Chicago,Illinois,Central,Office Supplies,Paper,567.89,2,0.1,141.97
+60,CA-2020-000060,01/03/2020,06/03/2020,Second Class,CG-12159,Customer 59,Consumer,United States,Chicago,Illinois,Central,Office Supplies,Paper,345.67,4,0.0,86.42
+61,CA-2020-000061,01/03/2020,06/03/2020,Second Class,CG-12160,Customer 60,Corporate,United States,Chicago,Illinois,Central,Office Supplies,Paper,45.98,2,0.0,12.34
+62,CA-2020-000062,01/03/2020,06/03/2020,Second Class,CG-12161,Customer 61,Corporate,United States,Chicago,Illinois,Central,Office Supplies,Paper,1199.99,5,0.15,299.99
+63,CA-2020-000063,01/03/2020,06/03/2020,Second Class,CG-12162,Customer 62,Corporate,United States,Chicago,Illinois,Central,Office Supplies,Paper,56.45,3,0.0,-15.67
+64,CA-2020-000064,01/03/2020,06/03/2020,Second Class,CG-12163,Customer 63,Corporate,United States,Chicago,Illinois,Central,Office Supplies,Paper,899.99,1,0.2,179.99
+65,CA-2020-000065,01/03/2020,06/03/2020,Second Class,CG-12164,Customer 64,Corporate,United States,Chicago,Illinois,Central,Office Supplies,Paper,234.56,4,0.1,58.64
+66,CA-2020-000066,01/03/2020,06/03/2020,Second Class,CG-12165,Customer 65,Corporate,United States,Chicago,Illinois,Central,Office Supplies,Paper,678.9,2,0.0,169.73
+67,CA-2020-000067,01/03/2020,06/03/2020,Second Class,CG-12166,Customer 66,Corporate,United States,Chicago,Illinois,Central,Technology,Phones,1456.78,6,0.15,364.2
+68,CA-2020-000068,01/03/2020,06/03/2020,Second Class,CG-12167,Customer 67,Corporate,United States,Chicago,Illinois,Central,Technology,Phones,123.45,3,0.0,30.86
+69,CA-2020-000069,01/03/2020,06/03/2020,Second Class,CG-12168,Customer 68,Corporate,United States,Chicago,Illinois,Central,Technology,Phones,567.89,2,0.1,141.97
+70,CA-2020-000070,01/03/2020,06/03/2020,Second Class,CG-12169,Customer 69,Corporate,United States,Chicago,Illinois,Central,Technology,Phones,345.67,4,0.0,86.42
+71,CA-2020-000071,01/03/2020,06/03/2020,Second Class,CG-12170,Customer 70,Corporate,United States,Chicago,Illinois,Central,Technology,Phones,45.98,2,0.0,12.34
+72,CA-2020-000072,01/03/2020,06/03/2020,Second Class,CG-12171,Customer 71,Corporate,United States,Chicago,Illinois,Central,Technology,Phones,1199.99,5,0.15,299.99
+73,CA-2020-000073,01/03/2020,06/03/2020,Second Class,CG-12172,Customer 72,Corporate,United States,Chicago,Illinois,Central,Technology,Phones,56.45,3,0.0,-15.67
+74,CA-2020-000074,01/03/2020,06/03/2020,Second Class,CG-12173,Customer 73,Corporate,United States,Chicago,Illinois,Central,Technology,Phones,899.99,1,0.2,179.99
+75,CA-2020-000075,01/03/2020,06/03/2020,Second Class,CG-12174,Customer 74,Corporate,United States,Chicago,Illinois,Central,Technology,Phones,234.56,4,0.1,58.64
+76,CA-2020-000076,01/03/2020,06/03/2020,Second Class,CG-12175,Customer 75,Corporate,United States,Houston,Texas,South,Technology,Phones,678.9,2,0.0,169.73
+77,CA-2020-000077,01/03/2020,06/03/2020,Second Class,CG-12176,Customer 76,Corporate,United States,Houston,Texas,South,Technology,Phones,1456.78,6,0.15,364.2
+78,CA-2020-000078,01/03/2020,06/03/2020,Second Class,CG-12177,Customer 77,Corporate,United States,Houston,Texas,South,Technology,Phones,123.45,3,0.0,30.86
+79,CA-2020-000079,01/03/2020,06/03/2020,Second Class,CG-12178,Customer 78,Corporate,United States,Houston,Texas,South,Technology,Phones,567.89,2,0.1,141.97
+80,CA-2020-000080,01/03/2020,06/03/2020,Second Class,CG-12179,Customer 79,Corporate,United States,Houston,Texas,South,Technology,Phones,345.67,4,0.0,86.42
+81,CA-2020-000081,01/03/2020,06/03/2020,First Class,CG-12180,Customer 80,Corporate,United States,Houston,Texas,South,Technology,Phones,45.98,2,0.0,12.34
+82,CA-2020-000082,01/03/2020,06/03/2020,First Class,CG-12181,Customer 81,Corporate,United States,Houston,Texas,South,Technology,Phones,1199.99,5,0.15,299.99
+83,CA-2020-000083,01/03/2020,06/03/2020,First Class,CG-12182,Customer 82,Corporate,United States,Houston,Texas,South,Technology,Phones,56.45,3,0.0,-15.67
+84,CA-2020-000084,01/03/2020,06/03/2020,First Class,CG-12183,Customer 83,Corporate,United States,Houston,Texas,South,Technology,Accessories,899.99,1,0.2,179.99
+85,CA-2020-000085,01/03/2020,06/03/2020,First Class,CG-12184,Customer 84,Corporate,United States,Houston,Texas,South,Technology,Accessories,234.56,4,0.1,58.64
+86,CA-2020-000086,01/03/2020,06/03/2020,First Class,CG-12185,Customer 85,Home Office,United States,Houston,Texas,South,Technology,Accessories,678.9,2,0.0,169.73
+87,CA-2020-000087,01/03/2020,06/03/2020,First Class,CG-12186,Customer 86,Home Office,United States,Houston,Texas,South,Technology,Accessories,1456.78,6,0.15,364.2
+88,CA-2020-000088,01/03/2020,06/03/2020,First Class,CG-12187,Customer 87,Home Office,United States,Houston,Texas,South,Technology,Accessories,123.45,3,0.0,30.86
+89,CA-2020-000089,01/03/2020,06/03/2020,First Class,CG-12188,Customer 88,Home Office,United States,Houston,Texas,South,Technology,Accessories,567.89,2,0.1,141.97
+90,CA-2020-000090,01/03/2020,06/03/2020,First Class,CG-12189,Customer 89,Home Office,United States,Houston,Texas,South,Technology,Accessories,345.67,4,0.0,86.42
+91,CA-2020-000091,01/03/2020,06/03/2020,First Class,CG-12190,Customer 90,Home Office,United States,Houston,Texas,South,Technology,Accessories,45.98,2,0.0,12.34
+92,CA-2020-000092,01/03/2020,06/03/2020,First Class,CG-12191,Customer 91,Home Office,United States,Houston,Texas,South,Technology,Accessories,1199.99,5,0.15,299.99
+93,CA-2020-000093,01/03/2020,06/03/2020,First Class,CG-12192,Customer 92,Home Office,United States,Houston,Texas,South,Technology,Accessories,56.45,3,0.0,-15.67
+94,CA-2020-000094,01/03/2020,06/03/2020,First Class,CG-12193,Customer 93,Home Office,United States,Houston,Texas,South,Technology,Accessories,899.99,1,0.2,179.99
+95,CA-2020-000095,01/03/2020,06/03/2020,First Class,CG-12194,Customer 94,Home Office,United States,Houston,Texas,South,Technology,Accessories,234.56,4,0.1,58.64
+96,CA-2020-000096,01/03/2020,06/03/2020,First Class,CG-12195,Customer 95,Home Office,United States,Houston,Texas,South,Technology,Accessories,678.9,2,0.0,169.73
+97,CA-2020-000097,01/03/2020,06/03/2020,First Class,CG-12196,Customer 96,Home Office,United States,Houston,Texas,South,Technology,Accessories,1456.78,6,0.15,364.2
+98,CA-2020-000098,01/03/2020,06/03/2020,First Class,CG-12197,Customer 97,Home Office,United States,Houston,Texas,South,Technology,Accessories,123.45,3,0.0,30.86
+99,CA-2020-000099,01/03/2020,06/03/2020,First Class,CG-12198,Customer 98,Home Office,United States,Houston,Texas,South,Technology,Accessories,567.89,2,0.1,141.97
+100,CA-2020-000100,01/03/2020,06/03/2020,First Class,CG-12199,Customer 99,Home Office,United States,Houston,Texas,South,Technology,Accessories,345.67,4,0.0,86.42
