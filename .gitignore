@@ -47,6 +47,7 @@ Thumbs.db
 data/
 dataset/
 *.csv
+!sample_superstore_data.csv
 *.h5
 *.hdf5
 
