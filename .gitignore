@@ -48,6 +48,7 @@ data/
 dataset/
 *.csv
 !sample_superstore_data.csv
+!pandas_practice/data/*.csv
 *.h5
 *.hdf5
 
